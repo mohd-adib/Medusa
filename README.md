@@ -17,4 +17,5 @@ npm i axios
 
 
 Use : node Medusa link rps threads proxy.txt
+
 Example : node Medusa https://start.co.il/ 120 30 20 proxy.txt
