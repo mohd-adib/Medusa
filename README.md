@@ -1,11 +1,11 @@
 Telegram Channel https://t.me/RipperSec
 
-Install Guide :
-- Download Nodejs latest version
-- Download nvm
-- Download npm
+Tools Requirements :
+nodejs latest version (v21)
+npm latest version
+nvm latest version
 
-Install :
+Npm Install Modules :
 npm i header-generator
 npm i cheerio
 npm i user-agents
@@ -15,7 +15,5 @@ npm i colors
 npm i random-useragent
 npm i axios
 
-
-Use : node Medusa link rps threads proxy.txt
-
-Example : node Medusa https://start.co.il/ 120 30 20 proxy.txt
+node Medusa <link> <time> <rps> <threads> <proxyfile>
+Example : node Medusa https://start.co.il/ 120 30 10 proxy.txt
